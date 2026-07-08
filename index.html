@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Quiz Challenge</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!doctype html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JavaScript Quiz App</title>
+
+        <link rel="stylesheet" href="styles.css" />
+      </head>
+
+      <body>
+        <main class="container">
+          <!-- Start Screen -->
+          <section class="screen active" id="start-screen">
+            <header>
+              <h1>🧠 JavaScript Quiz</h1>
+              <p>
+                Test your JavaScript knowledge with fun multiple-choice
+                questions.
+              </p>
+            </header>
+
+            <button id="start-btn">Start Quiz</button>
+          </section>
+
+          <!-- Quiz Screen -->
+          <section class="screen" id="quiz-screen">
+            <header class="quiz-header">
+              <h2 id="question-text">Question goes here</h2>
+
+              <div class="quiz-info">
+                <p>
+                  Question
+                  <span id="current-question">1</span>
+                  of
+                  <span id="total-questions">5</span>
+                </p>
+
+                <p>
+                  Score:
+                  <span id="score">0</span>
+                </p>
+              </div>
+            </header>
+
+            <!-- JavaScript will generate the answer buttons here -->
+            <div id="answers-container" class="answers-container"></div>
+
+            <div class="progress-bar" aria-label="Quiz progress">
+              <div id="progress" class="progress"></div>
+            </div>
+          </section>
+
+          <!-- Result Screen -->
+          <section class="screen" id="result-screen">
+            <header>
+              <h2>Quiz Results</h2>
+            </header>
+
+            <div class="result-info">
+              <p>
+                You scored
+                <strong><span id="final-score">0</span></strong>
+                out of
+                <strong><span id="max-score">5</span></strong
+                >.
+              </p>
+
+              <p id="result-message">Great job!</p>
+            </div>
+
+            <button id="restart-btn">Play Again</button>
+          </section>
+        </main>
+
+        <script src="script.js"></script>
+      </body>
+    </html>
+    <script src="script.js"></script>
+  </body>
+</html>
