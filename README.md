@@ -25,12 +25,6 @@ A simple quiz application built with **HTML, CSS, and JavaScript**. The quiz tes
 
 No installation is required.
 
-# Future Improvements
-
-- Add a timer
-- Save high scores
-- Add more questions
-- Add different difficulty levels
 
 ## What I Changed
 
